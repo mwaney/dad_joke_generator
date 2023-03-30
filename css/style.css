@@ -57,18 +57,21 @@ main {
   }
   
   .btns .share:hover {
-    background-color: #4CAF50;
+    background-color: rgba(76, 175, 80, 0.5);
+    box-shadow: 0 4px 4px rgba(0,0,0,0.3);
   }
   
   .btns .like:hover {
-    background-color: #e60073;
+    background-color: rgba(230, 0, 115,.5);
+    box-shadow: 0 4px 4px rgba(0,0,0,0.3);
   }
   
   .btns .submit {
-    background-color: #333;
-    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    background-color: rgba(0,0,0,.1);
+    /* background-color: #333;     */
   }
   
   .btns .submit:hover {
-    background-color: #e60073;
+    background-color: rgba(0,0,0,.5);
+    box-shadow: 0 4px 4pxpx rgba(0,0,0,0.3);
   }
